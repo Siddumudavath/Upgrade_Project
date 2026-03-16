@@ -1,0 +1,29 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-size: 1rem;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+}
+
+/* Event card styling */
+.event-card {
+  margin-bottom: 20px;
+}
+
+/* Responsive padding */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
